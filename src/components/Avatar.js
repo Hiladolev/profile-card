@@ -1,5 +1,3 @@
-export default function Avatar(){
-    return (
-        
-    );
+export default function Avatar() {
+  return <img src="images/selfie.jfif" alt="selfie of Hila Dolev" />;
 }

@@ -1,4 +1,5 @@
 import Avatar from "./components/Avatar";
+import "./styles.css";
 
 export default function App() {
   return (

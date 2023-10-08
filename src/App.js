@@ -1,3 +1,7 @@
 export default function App() {
-  return <div className="card"></div>;
+  return (
+    <div className="card">
+      <div className="data"></div>
+    </div>
+  );
 }

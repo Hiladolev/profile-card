@@ -9,9 +9,9 @@ export default function App() {
     "Javascript💪",
     "Git and Github👍",
     "React💪",
-    "NodeJs🦹",
-    "Express🦹",
-    "MySQL🦹",
+    "NodeJs👶",
+    "Express👶",
+    "MySQL💪",
   ];
   return (
     <div className="card">

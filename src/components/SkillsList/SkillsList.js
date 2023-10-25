@@ -1,6 +1,5 @@
 import Skill from "../SkillsList/Skill";
 export default function SkillsList({ skills }) {
-  console.log(skills);
   return (
     <ul className="skill-list">
       {skills.map((item) => (

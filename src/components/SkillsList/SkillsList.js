@@ -1,9 +1,10 @@
 import Skill from "../SkillsList/Skill";
-export default function SkillsList(props) {
+export default function SkillsList({ skills }) {
+  console.log(skills);
   return (
     <ul className="skill-list">
-      {props.skills.map((skill) => (
-        <Skill skill={skill} key={skill} />
+      {skills.map((item) => (
+        <Skill skill={item.skill} key={item.skill} />
       ))}
     </ul>
   );
